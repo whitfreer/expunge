@@ -5,7 +5,7 @@
       {% if page.title %}
         {{page.title}} -
       {% endif %}
-      Expunge.io
+      Erasure
     </title>
     <meta charset='utf-8' />
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
@@ -111,8 +111,8 @@
           <ul id="sections" class="nav navbar-nav">
             <li><a href="{{ site.baseurl }}/">Home</a></li>
             <li><a href="{{ site.baseurl }}/about.html">About</a></li>
-            <li><a href="{{ site.baseurl }}/faq.html">FAQs</a></li>
-            <li><a href="{{ site.baseurl }}/es/index.html">Español</a></li>
+            <li><a href="{{ site.baseurl }}/faq.html">[FAQs:remove?]</a></li>
+            <li><a href="{{ site.baseurl }}/es/index.html">{Español:remove?]</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="pull-right"><a href="{{ site.baseurl }}/legalaid.html">FREE LEGAL HELP!</a></li>
@@ -127,7 +127,8 @@
 
     </div>
     
-    <!--google analytics-->
+    <!--google analytics :: uncomment script to script just above body to get back-->
+    <!--
     <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -141,6 +142,7 @@
      ga('create', 'UA-37739534-19', 'expunge.io', {'name': 'scc'});
      ga('scc.send', 'pageview');
     </script>
-
+    -->
+  
   </body>
 </html>
