@@ -7,8 +7,6 @@ layout: default
 
     <h2>{{page.question}}</h2>
 
-    {{content}}
-
     <br>
 
     <a href="{{ site.baseurl }}/{{page.ans1_next}}.html" class="btn btn-{% if page.ans1_color %}{{page.ans1_color}}{% else %}success{% endif %}">
@@ -29,6 +27,10 @@ layout: default
       <br><br>
       <a href="{{ site.baseurl }}/results/notsure.html" class="btn btn-default">I'm not sure</a>
     {% endif %}
+    
+    <br>
+    
+    {{content}}
 
   </div>
   
